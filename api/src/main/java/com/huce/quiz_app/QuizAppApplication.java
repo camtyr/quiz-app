@@ -1,7 +1,9 @@
-package com.example.quiz_app;
+package com.huce.quiz_app;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class QuizAppApplication {
@@ -11,3 +13,4 @@ public class QuizAppApplication {
 	}
 
 }
+
